@@ -1,27 +1,75 @@
+#cv {
+	margin: 10% 20%;
+	font-size: 16px;
+	box-sizing: border-box;
+	font-family: "Helvetica" , sans-serif;
+}
+#cv h1 {
+	font-size: 20px;
+}
 .clear {
 	clear: both;
+	width: 92%;
+	background-color: gray;
+	padding: 1px;
+	margin: auto;
+}
+.clear.gold {
+	background-color: gold;
+	padding: 2px;
+	width: 100%;
 }
 
 #headshot {
 	width: 12.5%;
 	float: left;
 	margin-right: 30px;
+	margin-bottom: 2%;
 }
-
+#headshot img {
+	border-radius: 50%;
+}
 #name {
 	float: left;
 }
-
 #contactDetails {
 	float: right;
+	margin-right: 10%;
 }
-
+#contactDetails li {
+	list-style: none;
+}
+#contactDetails a {
+	text-decoration: none;
+	color: black;
+}
 .sectionTitle {
 	float: left;
-	width: 25%;
+	width: 20%;
+	color: gold;
+	margin-left: 4%;
 }
-
 .sectionContent {
 	float: right;
-	width: 72.5%;
+	width: 70%;
+}
+.keySkills {
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat(3, 20%);
+}
+.keySkills li {
+	list-style: none;
+}
+.subDetails {
+	margin: 1px;
+	font-style: italic;
+	opacity: 70%;
+}
+h2 {
+	margin: 20px 0px 0px;
+	font-size: 18px;
+}
+p {
+	margin: 6px 0px;
 }
