@@ -10,12 +10,12 @@
 .clear {
 	clear: both;
 	width: 92%;
-	background-color: gray;
+	background-color: #dedede;
 	padding: 1px;
 	margin: auto;
 }
 .clear.gold {
-	background-color: gold;
+	background-color: #cf8a05;
 	padding: 2px;
 	width: 100%;
 }
@@ -35,18 +35,19 @@
 #contactDetails {
 	float: right;
 	margin-right: 10%;
+	color: #181818;
 }
 #contactDetails li {
 	list-style: none;
 }
 #contactDetails a {
 	text-decoration: none;
-	color: black;
+	color: #181818;
 }
 .sectionTitle {
 	float: left;
 	width: 20%;
-	color: gold;
+	color: #cf8a05;
 	margin-left: 4%;
 }
 .sectionContent {
@@ -71,4 +72,5 @@ h2 {
 }
 p {
 	margin: 6px 0px;
+	color: #181818;
 }
