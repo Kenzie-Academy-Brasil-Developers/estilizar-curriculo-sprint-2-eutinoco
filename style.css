@@ -55,8 +55,7 @@
 }
 .keySkills {
 	padding: 0;
-	display: grid;
-	grid-template-columns: repeat(3, 20%);
+	column-count: 3;
 }
 .keySkills li {
 	list-style: none;
